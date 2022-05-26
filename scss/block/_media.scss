@@ -1,0 +1,591 @@
+@media(max-width:1199px) {
+    .promo {
+        &__head {
+            .logo-uber {
+                font-size: 25px;
+
+            }
+        }
+    }
+
+    .mob {
+        &__item {
+            width: 300px;
+        }
+    }
+
+    footer {
+        .foot {
+            .store {
+
+                &__app,
+                &__goog,
+                &__win {
+                    img {
+                        width: 85px;
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+
+}
+
+@media(max-width:991px) {
+    .navi {
+        &__menu {
+            li {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .promo {
+        &__head {
+            .logo-uber {
+                font-size: 19px;
+            }
+
+            .logo-part {
+                font-size: 10px;
+                margin-top: 2px;
+            }
+
+            &-phone_tel {
+                margin-top: 0;
+                font-size: 22px;
+            }
+
+            &-phone_text {
+                margin-top: 5px;
+                font-size: 14px;
+            }
+        }
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__subtitle {
+            font-size: 30px;
+        }
+
+    }
+
+    .button {
+        &_header {
+            width: 150px;
+            font-size: 13px;
+            margin-top: 6px;
+        }
+
+        &_promo {
+            width: 200px;
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+
+    .reas {
+        &__item {
+            &-descr {
+                width: 190px;
+                margin-left: 8px;
+
+                &-title {
+                    font-size: 13px;
+                }
+
+                &-text {
+                    font-size: 11px;
+                }
+            }
+
+        }
+    }
+
+    .mob {
+        min-height: 800px;
+        padding-bottom: 40px;
+
+        &__item {
+            width: 240px;
+
+            &-descr {
+                font-size: 19px;
+            }
+        }
+    }
+
+    .car {
+        padding: 56px 0 55px;
+        min-height: 800px;
+    }
+
+    .cond {
+        padding: 50px 0;
+
+        &__item {
+
+            &-title,
+            &_warning {
+                font-size: 15px;
+            }
+
+            &_salary {
+                font-size: 13px;
+            }
+
+            ul,
+            .warning {
+                li {
+                    font-size: 13px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+
+    .world {
+        min-height: 500px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+
+    footer {
+        .foot {
+            .store {
+
+                &__app,
+                &__goog,
+                &__win {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media(max-width:768px) {
+    .navi {
+        &__menu {
+            li {
+                font-size: 11px;
+            }
+        }
+    }
+
+    .promo {
+        &__head {
+            .logo-uber {
+                font-size: 17px;
+            }
+
+            .logo-part {
+                font-size: 8px;
+                margin-top: 0;
+            }
+
+            &-phone_tel {
+                font-size: 21px;
+            }
+
+            &-phone_text {
+                font-size: 13px;
+            }
+        }
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__subtitle {
+            font-size: 30px;
+        }
+
+    }
+
+    .button {
+        &_header {
+            width: 145px;
+            font-size: 12px;
+        }
+
+        &_promo {
+            width: 200px;
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+
+    .reas {
+        &__item {
+            flex-direction: column;
+
+            &-img {
+                margin: 0 auto;
+            }
+
+            &-descr {
+                margin-top: 25px;
+                width: 341px;
+                line-height: 21px;
+
+                &-title {
+                    font-size: 17px;
+                }
+
+                &-text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .mob {
+        min-height: 800px;
+        padding-bottom: 40px;
+
+        &__item {
+            width: 172px;
+            height: 200px;
+
+            &-descr {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .car {
+        padding: 56px 0 55px;
+        min-height: 800px;
+    }
+
+    .cond {
+        padding: 50px 0;
+
+        &__item {
+
+            &-title,
+            &_warning {
+                font-size: 15px;
+            }
+
+            &_salary {
+                font-size: 13px;
+            }
+
+            ul,
+            .warning {
+                li {
+                    font-size: 13px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+
+    .world {
+        min-height: 500px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+}
+
+
+@media(max-width:576px) {
+    .navi {
+        height: 30px;
+
+        &__menu {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 50%;
+            height: 100vh;
+            padding: 0 20px;
+            text-align: center;
+            background: rgba($color: #000000, $alpha: .6);
+            transition: all .8s;
+
+            &_active {
+                left: 0;
+            }
+
+
+            li {
+                font-size: 15px;
+            }
+        }
+
+        .hamburger {
+            display: block;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+            height: 12px;
+
+            span {
+                display: block;
+                margin-top: 2px;
+                width: 20px;
+                height: 2px;
+                background: rgb(81, 226, 190);
+            }
+
+            &_active {
+                transition: all 0.5s;
+
+                span {
+                    margin-bottom: -4px;
+
+                    &:nth-child(1) {
+                        transform: translateY(16px);
+                        transform: rotate(45deg);
+                        transition: all 0.8s;
+                    }
+
+                    &:nth-child(2) {
+                        display: none;
+                    }
+
+                    &:nth-child(3) {
+                        transform: rotate(-45deg);
+                        transition: all 0.8s;
+                    }
+
+                }
+            }
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+    }
+
+    .promo {
+        .sm-inv {
+            display: none;
+        }
+
+        .sm-vis {
+            display: block;
+        }
+
+        margin-top: 30px;
+
+        &__head {
+            min-height: 60px;
+
+            .logo-uber {
+                font-size: 17px;
+            }
+
+            .logo-part {
+                font-size: 8px;
+                margin-top: 0;
+            }
+
+            &-phone_tel {
+                text-align: center;
+                margin-top: 6px;
+                font-size: 17px;
+            }
+
+        }
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__subtitle {
+            font-size: 30px;
+        }
+
+    }
+
+    .button {
+        &_header {
+            width: 145px;
+            height: 29px;
+            font-size: 12px;
+            margin: 0 auto;
+
+        }
+
+        &_promo {
+            width: 200px;
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+
+    .reas {
+        &__item {
+            flex-direction: column;
+
+            &-img {
+                margin: 0 auto;
+            }
+
+            &-descr {
+                margin-top: 25px;
+                width: auto;
+                line-height: 21px;
+
+                &-title {
+                    font-size: 17px;
+                }
+
+                &-text {
+                    margin-top: 15px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .mob {
+        min-height: 800px;
+        padding-bottom: 40px;
+
+        &__item {
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 300px;
+            height: 280px;
+
+            &-descr {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .car {
+        padding: 56px 0 55px;
+        min-height: 600px;
+        .title_car,.subtitle_car{
+            display: none;
+        }
+        &__img{
+            margin-top: 20px;
+        }
+        &__desc{
+            color: #fff;
+        }
+    }
+
+    .cond {
+        padding: 50px 0;
+
+        &__item {
+
+            &-title,
+            &_warning {
+                font-size: 15px;
+            }
+
+            &_salary {
+                font-size: 13px;
+            }
+
+            ul,
+            .warning {
+                li {
+                    font-size: 13px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+
+    .world {
+        min-height: 500px;
+
+        a {
+            font-size: 12px;
+        }
+
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    footer {
+        .line {
+            width: 254px;
+        }
+
+        .foot {
+            display: block;
+
+            .sm-inv {
+                display: none;
+            }
+
+            .sm-vis {
+                display: block;
+            }
+
+            .links {
+                padding: 0;
+
+                &__two {
+                    width: 240px;
+                    flex-wrap: wrap;
+
+                    a {
+                        font-size: 11px;
+                        display: block;
+                    }
+                }
+
+                &__one {
+                    width: 280px;
+                    flex-wrap: wrap;
+
+                    a {
+                        display: block;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .soc {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .store {
+                margin-top: 20px;
+                text-align: center;
+
+                &__app,
+                &__goog,
+                &__win {
+                    display: inline-block;
+                }
+            }
+
+
+        }
+    }
+}

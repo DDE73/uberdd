@@ -1,0 +1,79 @@
+.mob {
+    padding: 45px 0 80px;
+    min-height: 864px;
+
+    &__item {
+        position: relative;
+        margin-top: 20px;
+        width: 320px;
+        height: 280px;
+        &_1{
+            background: linear-gradient(135deg, rgba(109, 16, 16, 0.5), rgba(0, 0, 0, 0.8)), url(../img/mob1.jpg) center center/cover no-repeat;
+        }
+        &_2{
+            background: linear-gradient(135deg, rgba(109, 16, 16, 0.5), rgba(0, 0, 0, 0.8)), url(../img/mob2.jpg) center center/cover no-repeat;
+        }
+        &_3{
+            background: linear-gradient(135deg, rgba(109, 16, 16, 0.5), rgba(0, 0, 0, 0.8)), url(../img/mob3.jpg) center center/cover no-repeat;
+        }
+        &_4{
+            background: linear-gradient(135deg, rgba(109, 16, 16, 0.5), rgba(0, 0, 0, 0.8)), url(../img/mob4.jpg) center center/cover no-repeat;
+        }
+        &_5{
+            background: linear-gradient(135deg, rgba(109, 16, 16, 0.5), rgba(0, 0, 0, 0.8)), url(../img/mob5.jpg) center center/cover no-repeat;
+        }
+        &_6{
+            background: linear-gradient(135deg, rgba(109, 16, 16, 0.5), rgba(0, 0, 0, 0.8)), url(../img/mob6.jpg) center center/cover no-repeat;
+        }
+           
+            
+       
+
+        &-descr {
+            padding-top: 90px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+
+        }
+
+        &_plus {
+            position: absolute;
+            bottom: 37px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 26px;
+            height: 26px;
+            background: #000;
+            border-radius: 100%;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: block;
+                width: 14px;
+                height: 2px;
+                background: $main-blue;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: block;
+                width: 3px;
+                height: 14px;
+                background: $main-blue;
+            }
+        }
+    }
+
+
+}

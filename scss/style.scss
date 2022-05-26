@@ -1,0 +1,33 @@
+@import 'main/var';
+
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+@import 'block/nav';
+@import 'block/promo';
+@import 'block/button';
+@import 'block/reasons';
+@import 'block/title';
+@import 'block/mobile';
+@import 'block/car';
+@import 'block/condition';
+@import 'block/world';
+@import 'block/footer';
+
+@import 'block/media';
+
+
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    // line-height: 100%;
+}
+
+.container{
+    max-width: 1140px;
+}
+.sm-vis{
+    display: none;
+}

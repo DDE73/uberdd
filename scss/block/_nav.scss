@@ -1,0 +1,30 @@
+.navi {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 51px;
+    background-color: #212121;
+    z-index: 1;
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        li {
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 300;
+            
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+
+    }
+    .hamburger{
+        display: none;
+    }
+}

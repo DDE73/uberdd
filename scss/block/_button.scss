@@ -1,0 +1,28 @@
+.button {
+    display: block;
+    background-image: linear-gradient(0.0deg, $main-blue 0%, #4ce2ff 100%);
+    border: 3px solid rgba(0, 0, 0, 0.06);
+    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.11);
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 4px;
+
+    &_header {
+        margin: 0 auto;
+        margin-top: 19px;
+        width: 178px;
+        height: 52px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &_promo {
+        margin: 0 auto;
+        margin-top: 116px;
+        width: 265px;
+        height: 69px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+    }
+}

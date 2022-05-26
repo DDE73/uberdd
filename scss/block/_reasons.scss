@@ -1,0 +1,48 @@
+.reas {
+    min-height: 864px;
+    padding: 75px 0 65px;
+
+    .row {
+        margin-top: 50px;
+    }
+
+    &__item {
+        margin-bottom: 36px;
+        display: flex;
+        flex-direction: row;
+
+        &-img {
+            width: 113px;
+            height: 113px;
+            background: $main-blue;
+            border-radius: 100%;
+
+            img {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        &-descr {
+            margin-left: 26px;
+            width: 341px;
+            line-height: 21px;
+
+            &-title {
+                font-size: 17px;
+                color: $main-blue;
+                font-weight: 400;
+            }
+
+            &-text {
+                font-size: 15px;
+                font-weight: 300;
+                color: #202020;
+                text-align: justify;
+            }
+        }
+    }
+
+}

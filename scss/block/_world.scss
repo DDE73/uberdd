@@ -1,0 +1,22 @@
+.world {
+    position: relative;
+    min-height: 717px;
+    padding: 50px 0;
+    background: url('../img/bg/bg2map.jpg') center center/cover no-repeat;
+
+    &__a {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $main-blue;
+        &:hover{
+            color: $main-blue;
+        }
+    }
+}

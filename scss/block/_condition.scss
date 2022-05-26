@@ -1,0 +1,71 @@
+.cond {
+    min-height: 915px;
+    padding: 70px 0 95px;
+
+    &__item {
+        margin-top: 33px;
+        &-title {
+            font-size: 22px;
+            color: $main-blue;
+            font-weight: 400;
+            &_warning{
+                color: $main-red;
+            }
+        }
+
+        &_salary {
+            font-size: 17px;
+            font-weight: 300;
+            color: $main-blue;
+        }
+        ul{
+            padding-left: 52px;
+            li {
+                position: relative;
+                margin-top: 10px;
+                font-size: 17px;
+                font-weight: 300;
+                color: #222222;
+                list-style-type: none;
+                &:before{
+                    position: absolute;
+                    content: '';
+                    display: inline-block;
+                    width: 21px;
+                    height: 20px;
+                    left: -33px;
+                    top: 2px;
+                    background:url("../img/icon/tickbl.png");
+                    
+                }
+            }
+            
+        }
+        .warning{
+            padding-left: 52px;
+            li {
+                position: relative;
+                margin-top: 10px;
+                font-size: 17px;
+                font-weight: 300;
+                color: #222222;
+                list-style-type: none;
+                &:before{
+                    position: absolute;
+                    content: '';
+                    display: inline-block;
+                    width: 21px;
+                    height: 20px;
+                    left: -33px;
+                    top: 2px;
+                    background:url("../img/icon/tickrd.png");
+                    
+                }
+            }
+            
+        }
+
+       
+    }
+    
+}
